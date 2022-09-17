@@ -28,8 +28,9 @@ namespace Confitec.API.Controllers
 				if (!ModelState.IsValid)
 					return BadRequest(ModelState);
 
-				var result = _UsuarioService.Adicionar(view);
-				return Ok();
+				var result =  await _UsuarioService.Adicionar(view);
+				
+				return Ok(result);
 			}
 			catch
 			{
@@ -60,7 +61,7 @@ namespace Confitec.API.Controllers
 			{
 				await _UsuarioService.Remover(id);
 				
-				return Ok();
+				return Ok(id);
 			}
 			catch
 			{
@@ -78,7 +79,7 @@ namespace Confitec.API.Controllers
 				if (result == null)
 					return BadRequest();
 
-				return Ok();
+				return Ok(result);
 			}
 			catch
 			{

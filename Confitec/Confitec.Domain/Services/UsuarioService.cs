@@ -22,13 +22,15 @@ namespace Confitec.Domain.Services
 			_mapper = mapper;
 		}
 
-		public async Task Adicionar(AdicionarUsuarioViewModel view)
+		public async Task<UsuarioViewModel> Adicionar(AdicionarUsuarioViewModel view)
 		{
 			var entity = _mapper.Map<Usuario>(view);
 
 			await _usuarioRepository.Adicionar(entity);
 			
 			_usuarioRepository.Salvar();
+
+			return _mapper.Map<UsuarioViewModel>(entity);
 		}
 
 		public async Task<UsuarioViewModel> Atualizar(UsuarioViewModel view)

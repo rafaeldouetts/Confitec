@@ -48,7 +48,7 @@ namespace Confitec.Domain.Domain
 			if ((DateTime)value > DateTime.Now.Date)
 				return false;
 
-			return base.IsValid(value);
+			return true;
 		}
 	}
 

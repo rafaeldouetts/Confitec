@@ -15,10 +15,4 @@
     <ProjectReference Include="..\Confitec.Entity\Confitec.Entity.csproj" />
   </ItemGroup>
 
-  <configuration>
-    <system.web>
-      <globalization culture="pt-BR" uiCulture="pt-BR"/>
-    </system.web>
-  </configuration>
-
 </Project>

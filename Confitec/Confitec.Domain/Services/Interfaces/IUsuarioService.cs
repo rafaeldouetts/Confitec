@@ -9,7 +9,7 @@ namespace Confitec.Domain.Services.Interfaces
 {
 	public interface IUsuarioService
 	{
-		Task Adicionar(AdicionarUsuarioViewModel usuario);
+		Task<UsuarioViewModel> Adicionar(AdicionarUsuarioViewModel usuario);
 		Task<UsuarioViewModel> Atualizar(UsuarioViewModel view);
 		List<UsuarioViewModel> Listar();
 		Task Remover(int id);
