@@ -1,2 +1,4 @@
 logs/
 .vs/
+Confitec.Api\bin
+Confitec.Api\Logs
