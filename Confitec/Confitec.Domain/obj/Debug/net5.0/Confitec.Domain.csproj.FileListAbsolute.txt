@@ -1,0 +1,15 @@
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.csprojAssemblyReference.cache
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.AssemblyInfoInputs.cache
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.AssemblyInfo.cs
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\Confitec\Confitec\Confitec.Domain\bin\Debug\net5.0\Confitec.Domain.deps.json
+D:\Projetos\Confitec\Confitec\Confitec.Domain\bin\Debug\net5.0\Confitec.Domain.dll
+D:\Projetos\Confitec\Confitec\Confitec.Domain\bin\Debug\net5.0\ref\Confitec.Domain.dll
+D:\Projetos\Confitec\Confitec\Confitec.Domain\bin\Debug\net5.0\Confitec.Domain.pdb
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.dll
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\ref\Confitec.Domain.dll
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.pdb
+D:\Projetos\Confitec\Confitec\Confitec.Domain\bin\Debug\net5.0\Confitec.Entity.dll
+D:\Projetos\Confitec\Confitec\Confitec.Domain\bin\Debug\net5.0\Confitec.Entity.pdb
+D:\Projetos\Confitec\Confitec\Confitec.Domain\obj\Debug\net5.0\Confitec.Domain.csproj.CopyComplete
