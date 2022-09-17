@@ -1,0 +1,15 @@
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.csprojAssemblyReference.cache
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.AssemblyInfoInputs.cache
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.AssemblyInfo.cs
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.csproj.CoreCompileInputs.cache
+D:\Projetos\Confitec\Confitec\Confitec.Entity\bin\Debug\net5.0\Confitec.Entity.deps.json
+D:\Projetos\Confitec\Confitec\Confitec.Entity\bin\Debug\net5.0\Confitec.Entity.runtimeconfig.json
+D:\Projetos\Confitec\Confitec\Confitec.Entity\bin\Debug\net5.0\Confitec.Entity.runtimeconfig.dev.json
+D:\Projetos\Confitec\Confitec\Confitec.Entity\bin\Debug\net5.0\Confitec.Entity.dll
+D:\Projetos\Confitec\Confitec\Confitec.Entity\bin\Debug\net5.0\ref\Confitec.Entity.dll
+D:\Projetos\Confitec\Confitec\Confitec.Entity\bin\Debug\net5.0\Confitec.Entity.pdb
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.dll
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\ref\Confitec.Entity.dll
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.pdb
+D:\Projetos\Confitec\Confitec\Confitec.Entity\obj\Debug\net5.0\Confitec.Entity.genruntimeconfig.cache
