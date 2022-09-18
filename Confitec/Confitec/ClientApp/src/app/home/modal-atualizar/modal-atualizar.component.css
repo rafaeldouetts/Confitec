@@ -1,0 +1,13 @@
+.acoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-40{
+    width: 40%;
+}

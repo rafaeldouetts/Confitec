@@ -11,6 +11,6 @@ namespace Confitec.Entity.Enum
 		Infantil = 0,
 		Fundamental = 1, 
 		Medio = 2,
-		Superio = 3
+		Superior = 3
 	}
 }

@@ -1,0 +1,15 @@
+table {
+    width : 100% ;
+    background-color: darkorange;
+    margin-top: 10px;
+ }
+
+ .adicionar{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+
+.ml{
+    margin-left: 5px;
+}

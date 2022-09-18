@@ -38,6 +38,8 @@ namespace Confitec.API
 			services.AddDIRepository();
 			services.AddDIAutoMapper();
 			services.AddDIContext(Configuration);
+			services.AddDICORS();
+
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +51,11 @@ namespace Confitec.API
 				app.UseSwagger();
 				app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Confitec.API v1"));
 			}
+
+			app.UseCors(x => x
+			.AllowAnyOrigin()
+			.AllowAnyMethod()
+			.AllowAnyHeader());
 
 			app.UseHttpsRedirection();
 

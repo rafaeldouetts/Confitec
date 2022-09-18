@@ -1,0 +1,65 @@
+<form [formGroup]="atualizarUsuarioForm">
+    <h2 mat-dialog-title>Editar</h2>
+    <mat-dialog-content>
+
+        <div class="acoes w-100">
+            <ng-container>
+                <mat-form-field appearance="outline" class="w-40">
+                    <mat-label>Nome</mat-label>
+                    <input matInput required formControlName="nome">
+                    <mat-hint
+                        *ngIf="atualizarUsuarioForm.get('nome').touched && !atualizarUsuarioForm.get('nome').valid && atualizarUsuarioForm.get('nome').errors.required">
+                        Informe um nome.</mat-hint>
+                </mat-form-field>
+            </ng-container>
+
+            <ng-container>
+                <mat-form-field appearance="outline" class="w-40">
+                    <mat-label>Sobrenome</mat-label>
+                    <input matInput required formControlName="sobrenome">
+                    <mat-hint
+                        *ngIf="atualizarUsuarioForm.get('sobrenome').touched && !atualizarUsuarioForm.get('sobrenome').valid && atualizarUsuarioForm.get('sobrenome').errors.required">
+                        Informe um sobrenome.</mat-hint>
+                </mat-form-field>
+            </ng-container>
+        </div>
+
+        <div class="acoes w-100">
+        <ng-container>
+            <mat-form-field appearance="outline" class="w-40">
+                <mat-label>Email</mat-label>
+                <input matInput required type="email" formControlName="email">
+                <mat-hint
+                    *ngIf="!atualizarUsuarioForm.get('email').valid && atualizarUsuarioForm.get('email').errors.email">
+                    Informe um email valido.</mat-hint>
+                <mat-hint
+                    *ngIf="atualizarUsuarioForm.get('email').touched && !atualizarUsuarioForm.get('email').valid && atualizarUsuarioForm.get('email').errors.required">
+                    Informe um email.</mat-hint>
+            </mat-form-field>
+        </ng-container>
+
+        <ng-container>
+            <mat-form-field appearance="outline" class="w-40">
+                <mat-label>Data de Início</mat-label>
+                <input matInput (click)="DataNascimento.open()" (focus)="DataNascimento.open()"
+                    formControlName="dataNascimento" [matDatepicker]="DataNascimento">
+                <mat-datepicker-toggle matSuffix [for]="DataNascimento"></mat-datepicker-toggle>
+                <mat-datepicker #DataNascimento disabled="false"></mat-datepicker>
+                <mat-hint
+                    *ngIf="atualizarUsuarioForm.get('dataNascimento').touched && !atualizarUsuarioForm.get('dataNascimento').valid && atualizarUsuarioForm.get('dataNascimento').errors.required">
+                    Informe uma data nascimento.</mat-hint>
+            </mat-form-field>
+        </ng-container>
+    </div>
+
+    <div *ngIf="usuario" class="acoes w-100">
+        <app-escolaridade  [escolaridadeValue]="usuario.escolaridade" (escolaridadeEvet)="EscolaridadeEvet($event)" class="w-40"></app-escolaridade>
+    </div>
+
+    </mat-dialog-content>
+
+    <mat-dialog-actions class="acoes">
+        <button mat-button mat-dialog-close>Cancelar</button>
+        <button mat-button [disabled]="escolaridade == null || !atualizarUsuarioForm.valid" (click)="atualizar()" cdkFocusInitial>Salvar</button>
+    </mat-dialog-actions>
+</form>

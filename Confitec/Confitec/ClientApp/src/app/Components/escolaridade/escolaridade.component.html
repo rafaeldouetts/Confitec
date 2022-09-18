@@ -1,0 +1,10 @@
+<form [formGroup]="escolaridadeUsuarioForm">
+<mat-form-field appearance="outline" class="w-100">
+    <mat-label>Escolaridade</mat-label>
+    <mat-select formControlName="escolaridade" (selectionChange)="atualizarEscolaridade($event)" required>
+        <mat-option *ngFor="let tipo of escolaridades" [value]="tipo">
+            {{EscolariodadeTextoEnum[tipo]}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+</form>
